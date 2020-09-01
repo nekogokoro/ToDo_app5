@@ -1,5 +1,5 @@
 class ToDosController < ApplicationController
-  before_action :set_to_do, only: [:edit, :update]
+  before_action :set_to_do, only: [:edit, :update, :destroy]
   
   def index 
     @to_dos = ToDo.all
@@ -27,6 +27,11 @@ class ToDosController < ApplicationController
     else
       render :edit
     end
+  end
+
+  def destroy
+    @to_do.destroy
+    redirect_to to_dos_url
   end
 
 end
