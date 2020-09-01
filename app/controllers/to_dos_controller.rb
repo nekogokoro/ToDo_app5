@@ -1,5 +1,5 @@
 class ToDosController < ApplicationController
   def index 
-    @to_tos = 
+    @to_dos = ToDo.all
   end
 end
