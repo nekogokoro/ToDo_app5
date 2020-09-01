@@ -1,6 +1,8 @@
 <template>
   <div id="app">
     <p>{{ message }}</p>
+    <el-button>Default
+    </el-button>
   </div>
 </template>
 
