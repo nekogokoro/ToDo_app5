@@ -39,7 +39,7 @@ end
 private
 
 def to_do_params
- params.require(:to_do).permit(:title)
+ params.require(:to_do).permit(:title, :expired_at)
 end
 
 def set_to_do
