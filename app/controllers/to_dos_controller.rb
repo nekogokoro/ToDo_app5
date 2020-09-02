@@ -34,14 +34,13 @@ class ToDosController < ApplicationController
     redirect_to to_dos_url
   end
 
-end
-
 private
 
-def to_do_params
- params.require(:to_do).permit(:title, :expired_at)
-end
+  def to_do_params
+    params.require(:to_do).permit(:title, :expired_at)
+  end
 
-def set_to_do
-  @to_do = ToDo.find_by(id: params[:id])
+  def set_to_do
+    @to_do = ToDo.find_by(id: params[:id])
+  end
 end
