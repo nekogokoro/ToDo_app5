@@ -11,7 +11,7 @@
           name="authenticity_token">
         </el-input>
       </el-form-item>
-    　<el-form-item>
+     <el-form-item>
         <el-input
           v-model="toDo.title"
           name="to_do[title]">
