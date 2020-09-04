@@ -35,7 +35,7 @@ class Api::V1::ToDosController <  ActionController::API
 private
 
 def to_do_params
-  params.require(:to_do).permit(:finished, :title)
+  params.require(:to_do).permit(:finished, :title, :expired_at)
 end
 
 end
