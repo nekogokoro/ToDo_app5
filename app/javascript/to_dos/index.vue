@@ -1,6 +1,5 @@
 <template>
-  <div id="app" class="box14">
-    <p>
+  <div id="app" >
     <el-button
         icon="el-icon-plus"
         @click="createToDoDialog = true"
@@ -33,7 +32,6 @@
       @add="addToDo">
     </to-do-form>
    </el-dialog>
-   </p>
   </div>
 </template>
 
