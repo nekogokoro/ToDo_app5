@@ -13,4 +13,23 @@
  *= require_tree .
  *= require_self
  */
+ body {
+  height: 100%;
+  width:  100%;
+  background-color: aliceblue;
+}
+.hoge {
+  letter-spacing: 30px;
+  color: #FF8C00;
+  background: -webkit-linear-gradient(0deg, #40E0D0, #FF8C00, #FF0080);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 70px;
  
+}
+.hoge2{
+  color: #ACB6E5;
+  background: -webkit-linear-gradient(0deg, #ACB6E5, #86FDE8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

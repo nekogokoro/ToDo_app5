@@ -44,7 +44,7 @@
         @click="$emit('destroy', scope.row.id)"
         type="danger"
         icon="el-icon-delete"
-        circle></el-button>
+        circle><span>削除</span></el-button>
     </template>
   </el-table-column>
 </el-table>
