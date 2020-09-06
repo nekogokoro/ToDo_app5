@@ -60,3 +60,5 @@ end
 group :development do
   gem 'rubocop', require: false
 end
+gem 'bootstrap', '~> 4.1.1'
+gem 'jquery-rails'
